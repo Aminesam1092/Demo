@@ -73,6 +73,7 @@ button {
 }
 @media (max-width: 1280px) {
   .Topconteiner__Topimage {
+    margin-top: 450px;
     width: 70%;
     height: 70%;
   }

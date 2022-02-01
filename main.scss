@@ -13,6 +13,7 @@
         margin: 0 auto;
         margin-top: 250px;
         @include break.breakpoint(tablet) {
+            margin-top: 450px;
             width: 70%;
             height: 70%;
         }
