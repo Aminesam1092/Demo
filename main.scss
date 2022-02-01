@@ -11,7 +11,7 @@
         height: 70%;
         display: block;
         margin: 0 auto;
-        margin-top: 450px;
+        margin-top: 350px;
         @include break.breakpoint(tablet) {
             width: 70%;
             height: 70%;
@@ -32,7 +32,7 @@
             font-size: 25px;
         }
         @include break.breakpoint(smartphone) {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
     .Topimage {
@@ -92,7 +92,7 @@
             font-size: 28px;
         }
         @include break.breakpoint(smartphone) {
-            font-size: 16px;
+            font-size: 19px;
         }
     }
     &__Images {
