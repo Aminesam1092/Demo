@@ -58,6 +58,7 @@ gsap.to(".tamago", {
         scrub: true,
         pin: true,
     },
+    duration: 3,
     opacity: 0,
 });
 
@@ -84,11 +85,12 @@ gsap.to(".Secondnewline", {
     opacity: 1,
 });
 
-gsap.to(".Inductionconteiner", {
+
+gsap.to(".Descriptionitemthrdconteiner__image", {
     scrollTrigger: {
-        trigger: ".Inductionconteiner",
+        trigger: ".Descriptionitemthrdconteiner__image",
         start: "center center",
-        end: '+=2000',
+        end: '+=500',
         scrub: true,
         pin: true,
     },
@@ -96,12 +98,11 @@ gsap.to(".Inductionconteiner", {
     opacity: 1,
 });
 
-
-gsap.to(".Descriptionitemthrdconteiner__image", {
+gsap.to(".Inductionconteiner", {
     scrollTrigger: {
-        trigger: ".Descriptionitemthrdconteiner__image",
+        trigger: ".Inductionconteiner",
         start: "center center",
-        end: '+=500',
+        end: '+=2000',
         scrub: true,
         pin: true,
     },
