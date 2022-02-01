@@ -66,7 +66,7 @@ gsap.to(".Descriptionite__HeaddingSecondtext", {
     scrollTrigger: {
         trigger: ".Descriptionite__HeaddingSecondtext",
         start: "top center",
-        end: '+=1500',
+        end: '+=1000',
         scrub: true,
         pin: true,
     },
