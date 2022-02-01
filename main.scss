@@ -32,7 +32,7 @@
             font-size: 25px;
         }
         @include break.breakpoint(smartphone) {
-            font-size: 18px;
+            font-size: 20px;
         }
     }
     .Topimage {
@@ -58,7 +58,7 @@
             font-size: 25px;
         }
         @include break.breakpoint(smartphone) {
-            font-size: 19px;
+            font-size: 17px;
         }
         .RedBorderLine {
             border-bottom: solid 3px red;

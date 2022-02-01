@@ -98,7 +98,7 @@ button {
 }
 @media (max-width: 530px) {
   .Topconteiner__Secondheadingtext {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .Topconteiner .Topimage {
@@ -130,7 +130,7 @@ button {
 }
 @media (max-width: 530px) {
   .Descriptionitemconteiner__Secondheadingtext {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 .Descriptionitemconteiner__Secondheadingtext .RedBorderLine {
