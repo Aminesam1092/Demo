@@ -1,4 +1,4 @@
-gsap.to(".Topconteiner__Secondheadingtext",{
+gsap.to(".Topconteiner__Secondheadingtext", {
     scrollTrigger: {
         trigger: ".Topconteiner",
         start: "top",
@@ -8,7 +8,7 @@ gsap.to(".Topconteiner__Secondheadingtext",{
     opacity: 1,
 });
 
-gsap.to(".Descriptionitemconteiner",{
+gsap.to(".Descriptionitemconteiner", {
     scrollTrigger: {
         trigger: ".Descriptionitemconteiner",
         start: "top center",
@@ -18,7 +18,7 @@ gsap.to(".Descriptionitemconteiner",{
     opacity: 1,
 });
 
-gsap.to(".Descriptionitemsecondconteiner__Secondheadingtext",{
+gsap.to(".Descriptionitemsecondconteiner__Secondheadingtext", {
     scrollTrigger: {
         trigger: ".Descriptionitemsecondconteiner__Secondheadingtext",
         start: "top center",
@@ -29,7 +29,7 @@ gsap.to(".Descriptionitemsecondconteiner__Secondheadingtext",{
     duration: 2,
     opacity: 1,
 });
-gsap.to(".maguro",{
+gsap.to(".maguro", {
     scrollTrigger: {
         trigger: ".maguro",
         start: "center center",
@@ -38,7 +38,7 @@ gsap.to(".maguro",{
         pin: true,
     },
 });
-gsap.to(".ikura",{
+gsap.to(".ikura", {
     scrollTrigger: {
         trigger: ".ikura",
         start: "center center",
@@ -47,7 +47,7 @@ gsap.to(".ikura",{
         pin: true,
     },
 });
-gsap.to(".tamago",{
+gsap.to(".tamago", {
     scrollTrigger: {
         trigger: ".tamago",
         start: "center center",
@@ -57,7 +57,7 @@ gsap.to(".tamago",{
     },
 });
 
-gsap.to(".Descriptionite__HeaddingSecondtext",{
+gsap.to(".Descriptionite__HeaddingSecondtext", {
     scrollTrigger: {
         trigger: ".Descriptionite__HeaddingSecondtext",
         start: "top center",
@@ -67,10 +67,9 @@ gsap.to(".Descriptionite__HeaddingSecondtext",{
     },
     duration: 2,
     opacity: 1,
-},
-);
+}, );
 
-gsap.to(".Secondnewline",{
+gsap.to(".Secondnewline", {
     scrollTrigger: {
         trigger: ".Secondnewline",
         start: "center center",
@@ -81,7 +80,7 @@ gsap.to(".Secondnewline",{
     opacity: 1,
 });
 
-gsap.to(".Inductionconteiner",{
+gsap.to(".Inductionconteiner", {
     scrollTrigger: {
         trigger: ".Inductionconteiner",
         start: "center center",

@@ -278,6 +278,7 @@ button {
   display: block;
   margin-left: 30%;
   line-height: 60px;
+  align-items: center;
 }
 @media (max-width: 1280px) {
   .Inductionconteiner .Thrdnewline {

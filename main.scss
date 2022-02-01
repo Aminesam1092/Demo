@@ -182,6 +182,7 @@
         display: block;
         margin-left: 30%;
         line-height: 60px;
+        align-items: center;
         @include break.breakpoint(tablet) {
             line-height: 25px;
             font-size: 30px;
