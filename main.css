@@ -172,7 +172,7 @@ button {
 }
 @media (max-width: 530px) {
   .Descriptionitemsecondconteiner__Secondheadingtext {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 .Descriptionitemsecondconteiner__Images {
@@ -218,7 +218,7 @@ button {
 }
 @media (max-width: 530px) {
   .Descriptionitemthrdconteiner__Secondheaddingtext {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 .Descriptionitemthrdconteiner__Secondheaddingtext .Secondnewline {
@@ -306,5 +306,11 @@ button {
 }
 .Inductionconteiner .DAISOlogo:hover {
   opacity: 0.75;
+}
+
+@media (max-width: 530px) {
+  .Fourmewline {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */

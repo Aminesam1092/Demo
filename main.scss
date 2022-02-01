@@ -94,7 +94,7 @@
             font-size: 28px;
         }
         @include break.breakpoint(smartphone) {
-            font-size: 19px;
+            font-size: 20px;
         }
     }
     &__Images {
@@ -132,7 +132,7 @@
             font-size: 28px;
         }
         @include break.breakpoint(smartphone) {
-            font-size: 15px;
+            font-size: 20px;
         }
         .Secondnewline {
             margin-top: 100px;
@@ -207,5 +207,11 @@
         &:hover {
             opacity: 0.75;
         }
+    }
+}
+
+.Fourmewline {
+    @include break.breakpoint(smartphone) {
+        display: block;
     }
 }
