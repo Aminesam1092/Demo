@@ -1,10 +1,12 @@
 gsap.to(".Topconteiner__Secondheadingtext", {
     scrollTrigger: {
-        trigger: ".Topconteiner",
-        start: "top",
-        end: 'bottom center',
+        trigger: ".Topconteiner__Secondheadingtext",
+        start: "top center",
+        end: '+=400',
+        scrub: true,
+        pin: true,
     },
-    duration: 0.5,
+    duration: 2,
     opacity: 1,
 });
 
@@ -85,6 +87,19 @@ gsap.to(".Inductionconteiner", {
         trigger: ".Inductionconteiner",
         start: "center center",
         end: '+=2000',
+        scrub: true,
+        pin: true,
+    },
+    duration: 2,
+    opacity: 1,
+});
+
+
+gsap.to(".Descriptionitemthrdconteiner__image", {
+    scrollTrigger: {
+        trigger: ".Descriptionitemthrdconteiner__image",
+        start: "center center",
+        end: '+=500',
         scrub: true,
         pin: true,
     },
