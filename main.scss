@@ -1,0 +1,208 @@
+@use "scss/base/base" as b;
+@use "scss/base/reset" as r;
+@use "scss/mixin/breakpoint" as break;
+@use "scss/mixin/btn" as btn;
+@use "scss/mixin/font" as f;
+@use "scss/setting/variables" as v;
+.Topconteiner {
+    width: 100%;
+    &__Topimage {
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 200px;
+        @include break.breakpoint(tablet) {
+            width: 70%;
+            height: 70%;
+        }
+        @include break.breakpoint(smartphone) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__Secondheadingtext {
+        text-align: center;
+        margin-top: 20px;
+        font-family: f.$jafontfamily;
+        color: f.$BaseFontColor;
+        font-size: 30px;
+        opacity: 0;
+        @include break.breakpoint(tablet) {
+            font-size: 25px;
+        }
+        @include break.breakpoint(smartphone) {
+            font-size: 20px;
+        }
+    }
+    .Topimage {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.Descriptionitemconteiner {
+    width: 100%;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    @include break.breakpoint(smartphone) {
+        display: block;
+    }
+    &__Secondheadingtext {
+        font-family: f.$jafontfamily;
+        color: f.$BaseFontColor;
+        font-size: 35px;
+        @include break.breakpoint(tablet) {
+            font-size: 25px;
+        }
+        @include break.breakpoint(smartphone) {
+            font-size: 17px;
+        }
+        .RedBorderLine {
+            border-bottom: solid 3px red;
+        }
+        .Newline {
+            display: block;
+            margin-left: 40px;
+        }
+    }
+    .Secondimage {
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        @include break.breakpoint(smartphone) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.Descriptionitemsecondconteiner {
+    width: 100%;
+    &__Secondheadingtext {
+        font-family: f.$jafontfamily;
+        color: f.$BaseFontColor;
+        font-size: 45px;
+        margin-top: 250px;
+        text-align: center;
+        opacity: 0;
+        @include break.breakpoint(tablet) {
+            font-size: 28px;
+        }
+        @include break.breakpoint(smartphone) {
+            font-size: 16px;
+        }
+    }
+    &__Images {
+        display: block;
+        text-align: center;
+    }
+}
+
+.Descriptionite__HeaddingSecondtext {
+    font-family: f.$jafontfamily;
+    color: f.$BaseFontColor;
+    font-size: 45px;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    text-align: center;
+    opacity: 0;
+    @include break.breakpoint(tablet) {
+        font-size: 30px;
+    }
+    @include break.breakpoint(smartphone) {
+        font-size: 30px;
+    }
+}
+
+.Descriptionitemthrdconteiner {
+    width: 100%;
+    &__Secondheaddingtext {
+        font-family: f.$jafontfamily;
+        color: f.$BaseFontColor;
+        font-size: 45px;
+        margin-top: 350px;
+        margin-bottom: 350px;
+        text-align: center;
+        @include break.breakpoint(tablet) {
+            font-size: 28px;
+        }
+        @include break.breakpoint(smartphone) {
+            font-size: 15px;
+        }
+        .Secondnewline {
+            margin-top: 100px;
+            display: block;
+            text-align: center;
+            opacity: 0;
+            @include break.breakpoint(tablet) {
+                font-size: 30px;
+            }
+            @include break.breakpoint(smartphone) {
+                font-size: 30px;
+            }
+        }
+    }
+    &__image {
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+        @include break.breakpoint(smartphone) {
+            width: 80%;
+            height: 80%;
+        }
+    }
+}
+
+.Inductionconteiner {
+    width: 100%;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    opacity: 0;
+    &__Secondheaddingtext {
+        font-family: f.$jafontfamily;
+        color: f.$BaseFontColor;
+        font-size: 45px;
+        text-align: center;
+        @include break.breakpoint(tablet) {
+            font-size: 30px;
+        }
+        @include break.breakpoint(smartphone) {
+            font-size: 20px;
+        }
+    }
+    .Thrdnewline {
+        display: block;
+        margin-left: 30%;
+        line-height: 60px;
+        @include break.breakpoint(tablet) {
+            line-height: 25px;
+            font-size: 30px;
+        }
+        @include break.breakpoint(smartphone) {
+            font-size: 20px;
+            line-height: 30px;
+            margin-left: 50%;
+        }
+    }
+    .DAISOlogo {
+        width: 10%;
+        height: 10%;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        @include break.breakpoint(smartphone) {
+            width: 30%;
+            height: 30%;
+        }
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+}
