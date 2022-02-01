@@ -141,9 +141,11 @@
             opacity: 0;
             @include break.breakpoint(tablet) {
                 font-size: 30px;
+                margin: 0 auto;
             }
             @include break.breakpoint(smartphone) {
                 font-size: 30px;
+                margin: 0 auto;
             }
         }
     }

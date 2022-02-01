@@ -230,11 +230,13 @@ button {
 @media (max-width: 1280px) {
   .Descriptionitemthrdconteiner__Secondheaddingtext .Secondnewline {
     font-size: 30px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 530px) {
   .Descriptionitemthrdconteiner__Secondheaddingtext .Secondnewline {
     font-size: 30px;
+    margin: 0 auto;
   }
 }
 .Descriptionitemthrdconteiner__image {
