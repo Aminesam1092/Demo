@@ -313,4 +313,12 @@ button {
     display: block;
   }
 }
+
+.maguro {
+  opacity: 0;
+}
+
+.tamago {
+  opacity: 1;
+}
 /*# sourceMappingURL=main.css.map */

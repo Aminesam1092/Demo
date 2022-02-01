@@ -39,6 +39,7 @@ gsap.to(".maguro", {
         scrub: true,
         pin: true,
     },
+    opacity: 1,
 });
 gsap.to(".ikura", {
     scrollTrigger: {
@@ -53,17 +54,18 @@ gsap.to(".tamago", {
     scrollTrigger: {
         trigger: ".tamago",
         start: "center center",
-        end: '+=1000',
+        end: '+=1500',
         scrub: true,
         pin: true,
     },
+    opacity: 0,
 });
 
 gsap.to(".Descriptionite__HeaddingSecondtext", {
     scrollTrigger: {
         trigger: ".Descriptionite__HeaddingSecondtext",
         start: "top center",
-        end: '+=2000',
+        end: '+=1500',
         scrub: true,
         pin: true,
     },
